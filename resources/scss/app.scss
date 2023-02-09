@@ -1,1 +1,25 @@
-@import '~bootstrap/scss/bootstrap'
+@import '~bootstrap/scss/bootstrap';
+
+body {
+    background-color: black;
+    min-width: 380px;
+}
+
+header {
+    background-color: red;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+main {
+    padding-top: 150px;
+}
+
+// Movie Cards
+div.movie-card {
+    height: 250px;
+    border: 2px solid red;
+    background-color: white;
+    border-radius: 0;
+}
